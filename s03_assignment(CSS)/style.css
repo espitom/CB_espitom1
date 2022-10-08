@@ -1,0 +1,52 @@
+* {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+#h2id {
+    text-transform: uppercase;
+}
+
+.ltobl {
+    list-style-type: none;
+    background-color: yellowgreen;
+    font-size: 110%;
+}
+
+[id="tools"] {
+    border: 50px;
+    
+}
+
+div + ul {
+    list-style: none;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-left: 25px;
+    
+}
+
+.otherthings {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+div img{
+    width: 10%;
+    height: 10%;
+    border-radius: 200px;
+}
+
+
+ul ~ div {
+    text-align: right;
+}
+
+ul > li {
+    letter-spacing: 5px;
+    line-height: 5px;
+}

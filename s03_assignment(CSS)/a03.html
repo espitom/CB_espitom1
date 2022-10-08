@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    h1 {font}
+    <style>
+        body > :nth-child(1) {
+            background-color: whitesmoke;
+        }
+    </style>
 </head>
 <body>
     <p style="color: red;">
@@ -23,26 +27,34 @@
 
     <h1>CSS Introduction Activity</h1>
 
-    <p style="font-weight: bold; text-transform:uppercase ;">
+    <h2 id="h2id">
         the following are the things you will learn on this bootcamp:
-    </p>
+    </h2> 
 
     <p style="font-weight: bold;">
         Languages to be Learned
     </p>
+    
+    <div class="ltobl" id="tools">
+        <p>
+            1. Hypertext Markup Language <br/>
+            2. Cascading Style Sheet <br/>
+            3. Javascript <br/>
+        </p>
+        
+    </div>
 
-    <ul>
-        <li>Hypertext Markup Language</li>
-        <li>Cascading Style Sheet</li>
-        <li>Javascript</li>
-    </ul>
+    <div class="otherthings">
+        <p style="text-indent: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            Other Things to be Learned
+        </p>
+    </div>
+    
 
-    <p style="text-indent: 20px;">
-        Other Things to be Learned
-    </p>
-
-    <img src="JSlogo.png" alt="jslogo">
-
+    <div id="jslogo">
+        <img src="JSlogo.png"/>
+    </div>
+    
     <ul>
         <li>Node.js</li>
         <li>Express.js</li>
@@ -50,9 +62,8 @@
         <li>MongoDB</li>
     </ul>
 
-    <p style="text-indent: 500px;;">
+    <div class="footer">
         Web development is a continuous process. Never stop learning and always look for ways to innovate.
-    </p>
-
+    </div>
 </body>
 </html>
