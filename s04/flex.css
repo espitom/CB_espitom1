@@ -1,0 +1,78 @@
+/* 
+Flexbox
+- one dimensional layout
+    - row
+    - column
+
+**Property to use that depends on flex declaration.
+    display: flex; we need to add display flex before accessing the properties.
+    - justify-content
+    - flex-direction
+    - flex-wrap
+    - align-items
+*/
+
+.flex-container {
+    background-color: lightblue;
+    height: 100px;
+    padding: 20px;
+
+    display: flex;
+    /* justifyy-content flex property
+     */
+
+    /* justify-content: flex-start; */
+    /* default property */
+
+    justify-content: center;
+    /* aligns in center */
+
+    /* justify-content: flex-end; */
+    /* aligns at the end */
+
+    /* justify-content: space-between; */
+    /* spaces are distributed in between equally */
+
+    /* justify-content: space-around; */
+    /* spaces are distributed around each item */
+
+    /* justify-content: space-evenly; */
+    /* distributed item spaces evenly*/
+
+    /* flex direction flex property */
+    /* flex-direction: row; */
+    /* default property */
+    /* displays as horizontal */
+
+    /* flex-direction: column; */
+    /* displays as vertical */
+
+    /* flex-direction: row-reverse; */
+    /* reversed items horizontally */
+
+    /* flex-direction: column-reverse; */
+    /* reversed items vertically */
+
+    /* flex-wrap flex property */
+
+    flex-wrap: wrap;
+
+    /* flex-wrap: nowrap; */
+
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-items property */
+    /* align-items: stretch; */
+    /* default */
+
+    /* align-items: flex-start; */
+
+    align-items: flex-end;
+    /* aligns items vertically and it is at the bottom */
+
+    align-items: center;
+    /* no overlap has been made in justify-content: center flex property
+    but the items itself centralized within the flexbox*/
+
+    /* NOTE: FLEX PROPERTY RECOGNIZES THE LAST PROPERTY DECLARED */
+}
