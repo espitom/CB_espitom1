@@ -1,0 +1,82 @@
+body {
+    height: 2000px;
+    width: 100%;
+    background-color:white;
+}
+
+
+.headerBack {
+
+    display: block;
+    height: 0px;
+    margin: 0px;
+        padding: 200px;
+    background-color: #D6D6D6;
+    
+}
+
+.centerBack {
+
+    display: block;
+    height: 100px;
+    margin: 0px;
+    margin-bottom: 125px;
+    padding: 225px;
+    background-color: #D6D6D6;
+    position: relative;
+    top: 35%;
+
+}
+
+.adaProfile {
+
+    /* shape of profile */
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 20px solid white;
+
+    /* position of profile */
+    position: absolute;
+    top: 20%;
+    left: 38%;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    order: 25px;
+}
+
+li {
+
+    float: left;
+    list-style: none;
+
+}
+
+li a {
+    
+    display: inline-block;
+    padding: 8px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+
+footer {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+
+#Contact {
+    display: flex;
+    justify-content: flex-end;
+}
