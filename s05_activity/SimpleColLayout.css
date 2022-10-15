@@ -1,0 +1,55 @@
+.divOne {
+
+    border: 2px solid black;
+    padding-bottom: 1200px;
+    padding-left: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    display: inline-block;
+    margin: 15px;
+    
+}
+
+.divTwo {
+
+    border: 2px solid black;
+    padding-bottom: 1200px;
+    padding-left: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.divThree {
+
+    border: 2px solid black;
+    padding-bottom: 1200px;
+    padding-left: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.divFour {
+
+    border: 2px solid black;
+    padding-bottom: 1200px;
+    padding-left: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 20px;
+    left: 950px;;
+    display: inline-block;
+    margin: 15px;
+
+}
