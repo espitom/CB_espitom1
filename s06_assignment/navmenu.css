@@ -1,0 +1,110 @@
+div {
+    box-sizing: border-box;
+    float: left;
+}
+
+.home {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.news {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.business {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contactUs {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+div:hover {
+    background-color: white;
+    
+}
+
+/*Mobile devices
+    width: 320px - 480px*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .home, .about, .news, .business, .contactUs {
+        width: 20%;
+        font-size: 20%;
+        position: relative;
+        top: 0px;
+        margin: 0px;
+    }
+}
+
+/*iPads, Tablets
+    width: 481px - 768px*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .home, .about, .news, .business, .contactUs {
+        width: 100%;
+        font-size: 100%;
+        position: relative;
+        top: 0px;
+        margin: 0px;    
+    }
+}
+
+/*Small screen, Laptops
+    width: 769px - 1024px*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .home, .about, .news, .business, .contactUs {
+        width: 20%;
+        font-size: 20%;
+        position: relative;
+        top: 0px;
+        margin: 0px;
+    }
+}
+    
+/*Desktop, Large screens
+    width: 1025px - 1200px*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .home, .about, .news, .business, .contactUs {
+        width: 100%;
+        font-size: 100%;
+        position: relative;
+        top: 0px;
+        margin: 0px;  
+    }
+}
+
+/*Extra large screens, TV
+    width: 1201px and more*/
+@media screen and (min-width: 1201px) {
+    .home, .about, .news, .business, .contactUs {
+        width: 20%;
+        font-size: 20%;
+        position: relative;
+        top: 0px;
+        margin: 0px;
+    }   
+}
+            
