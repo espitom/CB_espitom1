@@ -5,84 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Request Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Spagestyle.css">
 </head>
-<body>
-    <h1 style="text-align: center;">ABC Company IT Service Request Form</h1>
+    <body>
+        <h1 style="text-align: center;">ABC Company IT Service Request Form</h1>
 
-    <Form action="">
-        <p>
-            <label for="fname">First Name: </label>
-            <input type="text" name="fname" id="fname">
-        </p>
+        <Form action="" class="form position-relative col-lg-8 position-absolute top-5 end-0">
+            <p>
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname" id="fname">
+            </p>
 
-        <p>
-            <label for="lname">Last Name: </label>
-            <input type="text" name="lname" id="lname">
-        </p>
+            <p>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname">
+            </p>
 
-        <p>
-            <label for="emailAdd">Email Address: </label>
-            <input type="text" name="emailAdd" id="emailAdd">
-        </p>
+            <p>
+                <label for="emailAdd">Email Address: </label>
+                <input type="text" name="emailAdd" id="emailAdd">
+            </p>
 
-        <p>
-            <label for="cNumber">Contact Number: </label>
-            <textarea name="cNumber" id="cNumber" cols="50" placeholder="Enter you complete phone number with extension or mobile number" maxlength="50"></textarea>
-        </p>
+            <p>
+                <label for="cNumber">Contact Number: </label>
+                <textarea name="cNumber" id="cNumber" cols="50" placeholder="Enter you complete phone number with extension or mobile number" maxlength="50"></textarea>
+            </p>
 
-        <p>
-            <input type="radio" name="eType" id="eType">
-            <label for="eType">Onsite</label>
-            <input type="radio" name="eType" id="eType">
-            <label for="eType">Work from Home</label>
-        </p>
+            <p>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Onsite</label>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Work from Home</label>
+            </p>
 
-        <p>
-            Location: <br/>
-            For onsite, please state your Workstation No., Department, Floor and Building <br/>
-            For work from home, please complete your address and include a landmark nearest to your location. <br/>
-            <textarea name="lInstruction" id="lInstruction" cols="50" placeholder="" maxlength="100"></textarea>
-        </p>
-        
-        <p>
-            <label for="sRType">Service Request Type:</label>
-            <select name="sRType" id="srType" multiple="multiple" rows="10">
-                <option value="O1">Desktop/Laptop Setup</option>
-                <option value="O2">Desktop/Laptop Support</option>
-                <option value="O3">Desktop/Laptop Maintenance</option>
-                <option value="O4">Software Installation</option>
-                <option value="O5">Software Support</option>
-                <option value="O6">Computer Peripheral Setup</option>
-                <option value="O7">Peripheral Troubleshooting</option>
-                <option value="O8">Computer Peripheral Maintenance</option>
-            </select>
-        </p>
+            <p>
+                Location: <br/>
+                For onsite, please state your Workstation No., Department, Floor and Building <br/>
+                For work from home, please complete your address and include a landmark nearest to your location. <br/>
+                <textarea name="lInstruction" id="lInstruction" cols="50" placeholder="" maxlength="100"></textarea>
+            </p>
+            
+            <p>
+                <label for="sRType">Service Request Type:</label>
+                <select name="sRType" id="srType" multiple="multiple" rows="10">
+                    <option value="O1">Desktop/Laptop Setup</option>
+                    <option value="O2">Desktop/Laptop Support</option>
+                    <option value="O3">Desktop/Laptop Maintenance</option>
+                    <option value="O4">Software Installation</option>
+                    <option value="O5">Software Support</option>
+                    <option value="O6">Computer Peripheral Setup</option>
+                    <option value="O7">Peripheral Troubleshooting</option>
+                    <option value="O8">Computer Peripheral Maintenance</option>
+                </select>
+            </p>
 
 
 
-        <p>
-            Request Description: <br/>
-            <textarea name="rDesc" id="rDesc" cols="50" rows="10" 
-            placeholder="Explain your service request with as much details as possible" 
-            maxlength="200"></textarea>
-        </p>
-        
-        <p>
-            Upload a picture/screenshot for reference. 
-            <input type="file" name="file" id="">
-        </p>
+            <p>
+                Request Description: <br/>
+                <textarea name="rDesc" id="rDesc" cols="50" rows="10" 
+                placeholder="Explain your service request with as much details as possible" 
+                maxlength="200"></textarea>
+            </p>
+            
+            <p>
+                Upload a picture/screenshot for reference. 
+                <input type="file" name="file" id="">
+            </p>
 
-        <p>
-            <button type="submit">
-                <a href="TYspage.html">
-                Submit
-                </a> 
-            </button>
+            <p>
+                <button type="submit" class="btn1">
+                    <a href="TYspage.html" class="text-reset text-decoration-none">
+                    Submit
+                    </a> 
+                </button>
 
-            <button type="reset">
-                Reset
-            </button>
-        </p>
-    </Form>
-</body>
+                <button type="reset" class="btn1">
+                    Reset
+                </button>
+            </p>
+        </Form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
 </html>

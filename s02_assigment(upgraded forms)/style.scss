@@ -7,3 +7,26 @@
 .table {
     @include colors;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(202, 212, 212);
+}
+
+row{
+    background-color: white;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: bisque;
+}
