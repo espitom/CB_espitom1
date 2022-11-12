@@ -31,3 +31,20 @@ console.log("connected")
 */
 
 
+//1.Set two variables equal to two different numbers. Use a comparison operator to compare these two variables. Change one of their values by using the +=, -=, *=, or /= operator. Then, compare their values again.
+let a = 62;
+let b = 25;
+console.log (a);
+
+console.log(a <= b);
+
+console.log(a *= 5);
+console.log (a);
+
+console.log(a <= b);
+
+//2.Try out the <= and >= operators.
+console.log(a <= b);
+
+//3.Try to use the !== operator.
+console.log(a !== b);
